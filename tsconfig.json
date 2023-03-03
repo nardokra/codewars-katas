@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "rootDir": "./katas"
+  },
+  "include": ["katas/**/*"],
+  "exclude": ["./katas/**/tests/**.mjs", "./node_modules/", "./dist/"]
+}
