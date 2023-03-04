@@ -2,7 +2,7 @@ import { assert } from "chai";
 import cubeChecker from "../cubeChecker.ts";
 
 describe("cubeChecker", function () {
-  it("Is cube?", function () {
+  it("Shape is a cube with equal sides?", function () {
     assert.isTrue(cubeChecker(1, 1));
     assert.isTrue(cubeChecker(8, 2));
     assert.isTrue(cubeChecker(27, 3));
