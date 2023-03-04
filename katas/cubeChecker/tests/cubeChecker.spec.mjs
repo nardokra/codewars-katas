@@ -1,8 +1,8 @@
 import { assert } from "chai";
 import cubeChecker from "../cubeChecker.ts";
 
-describe("Cube?", function () {
-  it("Basic tests", function () {
+describe("cubeChecker", function () {
+  it("Is cube?", function () {
     assert.isTrue(cubeChecker(1, 1));
     assert.isTrue(cubeChecker(8, 2));
     assert.isTrue(cubeChecker(27, 3));
