@@ -13,7 +13,7 @@ const findOdd = (arrayOfNumbers: number[]): number => {
     );
 
   let i = 0;
-  while (i < uniqueNumbers.length && typeof result === "undefined") {
+  while (typeof result === "undefined" && i < uniqueNumbers.length) {
     const element = uniqueNumbers[i];
     const numberOfOccurances = elementCount(arrayOfNumbers, element);
     if (numberOfOccurances % 2 !== 0) {
